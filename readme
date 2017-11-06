@@ -1,0 +1,28 @@
+In order to test the application functionalities, we provide the following instructions:
+
+- Anonymous users:
+	can diretly access to the home page to:
+		-read all application tweets ordered by tweet publish date,
+		-access to the author profiles
+- Registered users:
+	need to perfome the login process. You can test it with a new registered user or with the following:
+		username: unityword123
+		password: http://localhost:8080/#1A
+	when it is logged these users can:
+		read tweets from its followers, can read the retweeted and favorite tweets of its followers ordered by tweet publish date.
+		add new tweets,
+		retweet tweets,
+		mark tweets as favorite,
+		comment tweets,
+		also the anonymous functionalities.
+
+-Administrator users:
+	can remove tweets and user accounts. (User accounts are not delete, but the password is updated in order to don't allow user access)
+	There is no option in the application to set a user as an admin.
+	These users are created directly on database.
+	An administrator user is:
+		username: unityword
+		password: http://localhost:8080/#1A
+
+	But if you want to set some user as administrator, execute the following query (enter the username in the WHERE clause):
+		UPDATE lab2.app_user SET is_admin=true WHERE username='';

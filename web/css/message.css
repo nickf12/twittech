@@ -1,0 +1,148 @@
+.message {
+    border: 1px rgba(122, 128, 122, 0.52) solid;
+    margin: 10px 0;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, 0.74);
+}
+
+.message .author {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.message .author * {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message .author .date {
+    font-weight: lighter;
+    font-size: small;
+    align-self: flex-end;
+}
+
+.message .author .avatar {
+    border-radius: 50%;
+    max-height: 7vh;
+    width: auto;
+}
+
+.message .content {
+    flex: 1;
+    margin:20px 15px;
+}
+
+.message .actions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.message .actions button {
+    margin: 0 10px;
+    border: unset;
+    background-color: transparent;
+}
+
+.message .actions button img, .message .actions button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.message button.retweet path.first {
+    fill: #2a30bc;
+}
+.message button.retweet path.second {
+    fill: #0d15ce;
+}
+.message button.retweet path.third {
+    fill: #070c82;
+}
+
+.message button.favorite path.flag {
+    fill: #be0b0b;
+}
+
+.message button.comment path {
+    fill: #dc2b1b;
+}
+
+.message button.comment rect {
+    fill: rgba(237, 180, 5, 0.95);
+}
+
+
+
+.loader {
+    width: 50px;
+    margin: auto !important;
+}
+
+
+dialog {
+    padding: 30px 50px;
+    margin: auto;
+    position: absolute;
+    top: 43vmin;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+dialog div {
+    display: flex;
+    margin: 5px 0;
+}
+
+dialog div.column {
+    flex-flow: column nowrap;
+}
+
+dialog div.row {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+dialog button {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    background-color: transparent;
+}
+
+dialog textarea {
+    width: 80vmin;
+    min-height: 10vmin;
+    text-align: end;
+    padding: 39px;
+}
+
+.commentDialog {
+    max-width: 65%;
+}
+
+.commentDialog > div {
+    max-width: unset;
+}
+
+.comment {
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+
+.comment > div {
+    margin: 0 10px;
+}
+
+.commentmessage {
+    word-break: break-all;
+}
+
+.comment .avatar {
+    height: 25px;
+    border-radius: 50%;
+}

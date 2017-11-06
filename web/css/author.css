@@ -1,0 +1,71 @@
+#authorProfile {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#authorProfile img {
+    border-radius: 50%;
+    max-height: 200px;
+    margin: auto;
+}
+
+#authorProfile #authorDetails {
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#authorDetails > div {
+    padding-bottom: 10px;
+}
+
+#authorDetails .key {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fffff9;
+}
+
+#authorDetails .value {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+#authorContainer {
+    flex: 1;
+}
+
+#authorContainer #authorMessages {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#authorContainer .follow {
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+#authorContainer .follow span {
+    margin: 20px;
+}
+
+#authorContainer span.follow-btn {
+    margin: auto;
+}
+
+#authorContainer .follow-btn svg {
+    width: 40px;
+    height: 40px;
+}
+
+#authorContainer .follow-btn.followed svg * {
+    fill: red;
+}
+
+#authorContainer .remove-btn {
+    line-height: 25px;
+    display: flex;
+}

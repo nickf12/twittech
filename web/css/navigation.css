@@ -1,0 +1,34 @@
+#navigation .nav-item {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#navigation td {
+    border-right: 1px solid #d3d3d380;
+}
+
+.nav-item svg {
+    width: 38px;
+    height: 38px;
+}
+
+.nav-item.signup svg * {
+    fill: #fffc00;
+}
+
+.nav-item * {
+    align-self: center;
+    margin: 0 15px;
+}
+
+.nav-item .rotated {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+a.menu {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}

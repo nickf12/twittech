@@ -1,0 +1,38 @@
+#homeContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+#homeContainer #messagesContainer {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+}
+
+#homeContainer #messagesContainer > img {
+    width: 50px;
+    margin: auto;
+}
+
+#homeContainer #newTweet {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 20px 30px;
+    min-height: 50px;
+}
+
+#homeContainer #newTweet textarea {
+    padding: 10px;
+    flex: 1;
+    font-size: 17px;
+}
+
+#homeContainer #newTweet button {
+    padding: 0 10px;
+    background: transparent;
+    border-radius: 10%;
+}

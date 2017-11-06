@@ -1,0 +1,29 @@
+#passMessage {
+    color: red;
+    font-size: 9px;
+}
+
+#registerForm {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#registerForm label {
+    color: white;
+    font-size: 30px;
+}
+
+#registerForm input{
+    padding: 10px 7px;
+    background: rgba(255, 255, 255, 0.74);
+    font-size: 19px;
+    border: none;
+    border-radius: 3px;
+}
+
+#registerForm span.error {
+    color: #fa5454;
+    font-size: 17px;
+}

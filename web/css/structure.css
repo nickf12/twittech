@@ -1,0 +1,95 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#faux {
+    background: url(/res/img/background2.jpg) no-repeat fixed center / cover;
+    overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#header {
+    color: #333;
+    width: 100%;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    background: #D1DBDB;
+}
+
+#navigation {
+    color: #333;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    background: #ABBEBE;
+}
+
+#leftcolumn {
+    color: #333;
+    margin: 10px 0px 10px 10px;
+    width: 195px;
+}
+
+#content {
+    color: #333;
+    margin: 10px 13px;
+    flex: 1;
+    /*display: flex;*/
+}
+
+#rightcolumn {
+    color: #333;
+    margin: 10px 10px 10px 0px;
+    width: 195px;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    color: #333;
+    background: #ABBEBE;
+    padding: 10px 0;
+}
+
+.clear {
+    clear: both;
+    background: none;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.column {
+    display: flex;
+    flex-flow: column nowrap;
+}

@@ -1,0 +1,30 @@
+#header {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#header span {
+    align-self: center;
+    font-size: 32px;
+    font-family: inherit;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#header svg {
+    margin-right: 10px;
+    width: 69px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 40px;
+    border: 2px solid grey;
+}
+
+#header svg path {
+    fill: rgba(225, 211, 17, 0.77);
+}
+#header svg rect {
+    fill: grey;
+}

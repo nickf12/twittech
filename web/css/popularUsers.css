@@ -1,0 +1,41 @@
+#popularUsersContainer {
+    overflow: scroll;
+    max-height: 100%;
+}
+
+#popularUsersContainer h2 {
+    color: #c1c1c1;
+}
+
+#popularUsersContainer .row {
+    padding: 10px 0;
+    justify-content: initial;
+    color: #fffff9;
+}
+
+#popularUsersContainer .row:hover {
+    background: rgba(128, 128, 128, 0.53);
+}
+
+#popularUsersContainer .row > * {
+     padding: 5px;
+}
+
+#popularUsersContainer .avatar {
+    height: 25px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#popularUsersContainer span {
+    line-height: 25px;
+}
+
+#popularUsersContainer button {
+    width: 80%;
+    margin: 10% 10px;
+    background: rgba(255, 255, 255, 0.74);
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+}

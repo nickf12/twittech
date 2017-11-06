@@ -1,0 +1,44 @@
+#personalDataForm {
+    display: flex;
+    flex-flow: column nowrap;
+    flex:1;
+}
+
+
+#personalDataForm label {
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#personalDataForm input {
+    padding: 10px 7px;
+    background: rgba(255, 255, 255, 0.74);
+    font-size: 19px;
+    border: none;
+    border-radius: 3px;
+}
+
+#personalDataForm textarea {
+    max-width: 100%;
+}
+
+#personalDataForm select {
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+#personalDataForm .formFooter {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#personalDataForm .formFooter input[type="submit"] {
+    padding: 15px 0;
+    margin: 5px 0;
+    font-size: 23px;
+    border-radius: 14px;
+    flex:1;
+    background-color: rgba(255, 255, 255, 0.74);
+}
